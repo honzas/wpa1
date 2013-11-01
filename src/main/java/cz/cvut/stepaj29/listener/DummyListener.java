@@ -17,10 +17,10 @@ import javax.servlet.ServletContextListener;
 public class DummyListener implements ServletContextListener {
 
     public void contextInitialized(ServletContextEvent sce) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("app loaded");
     }
 
     public void contextDestroyed(ServletContextEvent sce) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("app destroyed");
     }
 }
